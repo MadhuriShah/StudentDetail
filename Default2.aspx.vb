@@ -8,7 +8,7 @@ Partial Class Default2
     Dim result As Boolean
     Dim provider As Globalization.CultureInfo = Globalization.CultureInfo.InvariantCulture
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        fname = TextBox1.Text
+        fname = textbox1.text
         lname = TextBox2.Text
         mname = TextBox3.Text
         dob1 = TextBox4.Text
