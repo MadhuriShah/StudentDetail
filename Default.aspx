@@ -34,8 +34,9 @@
         <br />
         <br />
 <br />
-Details of&nbsp; Selected Student:<br />
-<asp:Label ID="Label1" runat="server" Text="Please select student to view detail"></asp:Label>
+        <asp:Label ID="Label2" runat="server" Text="Details ofSelected Student:"></asp:Label>
+<br />
+<asp:Label ID="Label1" runat="server" Text="Please select student to view/edit  detail"></asp:Label>
         <br />
 <br />
 <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource2" GridLines="None" Height="75px" Width="291px" ForeColor="#333333">

@@ -16,9 +16,10 @@ Partial Class _Default
 
         If IsNothing(GridView1.SelectedRow) Then
             Label1.Visible = True
+            Label2.Visible = False
         Else
             Label1.Visible = False
-
+            Label2.Visible = True
         End If
 
 
