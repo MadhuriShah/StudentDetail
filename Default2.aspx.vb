@@ -59,7 +59,5 @@ Partial Class Default2
         End If
     End Sub
 
-    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("Default.aspx")
-    End Sub
+    
 End Class

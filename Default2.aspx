@@ -42,9 +42,11 @@
     </p>
     <p style="margin-left: 280px">
         <asp:Button ID="Button1"  runat="server" Text="Add" Width="66px" />
+        </p>
+            </div>
+            </form>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" Text="Cancel" Width="66px" />
-    </p></div>
-        </form>
+   
+        
 </asp:Content>
 
