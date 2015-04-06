@@ -23,6 +23,7 @@
         <SortedDescendingHeaderStyle BackColor="#3E3277" />
 </asp:GridView>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [firstName], [lastName], [doa], [Id] FROM [student]"></asp:SqlDataSource>
+    <asp:Button ID="Button1" runat="server" Text="Add record" />
     <br />
     Details of&nbsp; Selected Student:<br />
     <asp:Label ID="Label1" runat="server" Text="Please select student to view detail"></asp:Label>
