@@ -3,6 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <form  id="form1" runat ="server">
+        <div>
     <p>
         First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" Width="210px"></asp:TextBox>
@@ -36,9 +38,10 @@
         <asp:TextBox ID="TextBox8" runat="server" Width="210px"></asp:TextBox>
     </p>
     <p style="margin-left: 280px">
-        <asp:Button ID="Button1" runat="server" Text="Add" Width="66px" />
+        <asp:Button ID="Button1"  runat="server" Text="Add" Width="66px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button2" runat="server" Text="Cancel" Width="66px" />
-    </p>
+    </p></div>
+        </form>
 </asp:Content>
 
