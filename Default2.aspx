@@ -41,12 +41,19 @@
         Last School Attended
         <asp:TextBox ID="TextBox8" class="form-control" runat="server" Width="210px"></asp:TextBox>
     </p>
-    <p style="margin-left: 200px">
+            <p>
+                &nbsp;</p>
+            <p>
         <asp:Button ID="Button1" class="btn btn-default"  runat="server" Text="Add" Width="66px" />
-        </p>
-            </div>
-            </form>
+    </p>
+            <p>
+                &nbsp;</p>
+           <p> 
+            <asp:Label ID="Label1"  class="alert alert-success" runat="server" Text="Label" Visible="False"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </p> 
+    </div>    
+            </form>
    
         
 </asp:Content>

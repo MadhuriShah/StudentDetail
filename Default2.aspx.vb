@@ -54,7 +54,8 @@ Partial Class Default2
 
         cmd = New SqlCommand(query, cn)
         If (cmd.ExecuteNonQuery()) Then
-            MsgBox("Inserted", MsgBoxStyle.Information)
+            Label1.Visible = True
+            Label1.Text = "Record Inserted successfully"
 
         End If
     End Sub
