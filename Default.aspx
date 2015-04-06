@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <form runat ="server" >
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" AllowSorting="True" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="Id" GridLines="Horizontal">
     <AlternatingRowStyle BackColor="#F7F7F7" />
     <Columns>
@@ -78,5 +79,6 @@ Details of&nbsp; Selected Student:<br />
         <asp:Parameter Name="Id" Type="Int32" />
     </UpdateParameters>
 </asp:SqlDataSource>
+        </form>
 </asp:Content>
 

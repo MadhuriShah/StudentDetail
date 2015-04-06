@@ -34,6 +34,7 @@
     <p>
         Date Of Admission:&nbsp;&nbsp;
         <asp:TextBox ID="TextBox7" runat="server" Width="210px"></asp:TextBox>
+        <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox4" ControlToValidate="TextBox7" ErrorMessage="Incorrect Admission date" Operator="GreaterThan"></asp:CompareValidator>
     </p>
     <p>
         Last School Attended
